@@ -1,0 +1,26 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>vue template tag</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.1/vue.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.js"
+                integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+                crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+    <div id="hello"></div>
+
+    <script type="text/javascript">
+        $.get({
+            url:'hello.vue',
+            dataType:'html',
+            success:function(data){
+                $('#hello').append(data);
+            }
+        });
+
+    </script>
+    </body>
+    </html>

@@ -1,0 +1,19 @@
+{
+  "name": "vue.tester",
+  "version": "1.0.0",
+  "description": "testing ground for Vue components",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pstephenwille/vue.tester.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pstephenwille/vue.tester/issues"
+  },
+  "homepage": "https://github.com/pstephenwille/vue.tester#readme"
+}
